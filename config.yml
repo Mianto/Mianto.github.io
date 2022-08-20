@@ -1,0 +1,58 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Siddhant Shaw
+theme: "PaperMod"
+copyright: "Siddhant Shaw | "
+
+build:
+  writeStats: true
+
+params:
+  ShowToc: true
+  TocOpen: false
+  disableThemeToggle: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  profileMode:
+    enabled: true
+    title: Siddhant Shaw # optional default will be site title
+    subtitle: Software Engineer | Avid Learner
+    imageUrl: images/minato.jpg # optional
+    imageTitle: "Profile Picture" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: About
+        url: /about
+      - name: Posts
+        url: /posts
+      - name: Projects
+        url: /projects
+
+  socialIcons:
+    - name: Github
+      url: https://github.com/Mianto/
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/mianto/
+    - name: Twitter
+      url: https://twitter.com/mianto7313/
+
+  assets:
+    favicon: images/favicon.ico
+
+menu:
+  main:
+    - identifiers: about
+      name: About
+      url: /about/
+      weight: 5
+    - identifiers: Posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifiers: projects
+      name: Projects
+      url: /projects/
+      weight: 20
