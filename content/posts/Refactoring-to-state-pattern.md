@@ -160,6 +160,11 @@ Before refactoring, we should have a test suite ready which we can use to verify
 * Code has become easier to understand and cheaper to maintain.
 
 
+## Source Code
+
+Code is hosted at [@github](https://github.com/Mianto/refactoring-to-state-pattern), please reach out for suggestions.
+
+
 ## References
 * Refactoring Book (https://martinfowler.com/books/refactoring.html)
 * Code Smell (https://martinfowler.com/bliki/CodeSmell.html)
