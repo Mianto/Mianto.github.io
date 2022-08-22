@@ -8,6 +8,7 @@ build:
   writeStats: true
 
 params:
+  env: production
   ShowToc: true
   TocOpen: false
   disableThemeToggle: true
@@ -41,6 +42,16 @@ params:
 
   assets:
     favicon: images/favicon.ico
+  
+  markup:
+    highlight:
+      # anchorLineNos: true
+      codeFences: true
+      guessSyntax: true
+      lineNos: true
+      # noClasses: false
+      style: monokai
+      pygmentsUseClasses: true
 
 menu:
   main:
