@@ -1,0 +1,3 @@
+[submodule "themes/PaperMod-mianto"]
+	path = themes/PaperMod-mianto
+	url = https://github.com/Mianto/hugo-PaperMod.git

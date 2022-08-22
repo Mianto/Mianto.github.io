@@ -1,7 +1,7 @@
 baseURL:  https://mianto.github.io/
 languageCode: en-us
 title: Siddhant Shaw
-theme: "PaperMod"
+theme: "PaperMod-mianto"
 copyright: "Siddhant Shaw | "
 
 build:
