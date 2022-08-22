@@ -87,6 +87,7 @@
     ],
     "ids": [
       "advantage-of-refactoring-to-state-pattern",
+      "disqus_thread",
       "example",
       "implementing-state-pattern",
       "menu",

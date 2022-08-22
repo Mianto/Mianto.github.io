@@ -10,6 +10,7 @@ editPost:
     URL: "https://github.com/Mianto/Mianto.github.io/tree/editpost/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
+comments: true
 ---
 Refactoring is a process of changing a software in a way that doesn't alter the external behaviour of code and yet improve its internal structure. Refactoring is just like performance optimization as both involve carrying out code manipulations that don’t change the overall functionality of the program. The difference is the purpose: Refactoring is always done to make the code _easier to understand and cheaper to modify_.
 
