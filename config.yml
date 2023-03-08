@@ -1,4 +1,4 @@
-baseURL:  https://mianto.github.io/
+baseURL: https://mianto.github.io/
 languageCode: en-us
 title: Siddhant Shaw
 theme: "PaperMod-mianto"
@@ -27,6 +27,8 @@ params:
     buttons:
       - name: About
         url: /about
+      - name: CV
+        url: https://drive.google.com/file/d/1N7VRvb9dzQcDZCrx2kf8wy6zxW7qoH_W/view?usp=sharing
       - name: Posts
         url: /posts
       - name: Projects
@@ -42,7 +44,7 @@ params:
 
   assets:
     favicon: images/favicon.ico
-  
+
   markup:
     highlight:
       # anchorLineNos: true
