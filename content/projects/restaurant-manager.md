@@ -1,7 +1,7 @@
 ---
 title: "Restaurant Manager"
 date: 2023-03-17T13:04:27+05:30
-draft: true
+draft: false
 ShowReadingTime: false
 ShowPostNavLinks: false
 ShowToc: false
