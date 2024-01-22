@@ -20,7 +20,7 @@ params:
     enabled: true
     title: Siddhant Shaw # optional default will be site title
     subtitle: Software Engineer | Avid Learner
-    imageUrl: images/minato.jpg # optional
+    imageUrl: images/me.jpg # optional
     imageTitle: "Profile Picture" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
