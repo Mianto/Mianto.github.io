@@ -3,6 +3,8 @@ title: "Refactoring to State Pattern"
 date: 2022-08-09T22:03:46+05:30
 author: ["Siddhant Shaw"]
 summary: Refactoring is a process of changing a software in a way that doesn't alter the external behavior of code and yet improves its internal structure. In this post I am trying to explain how one of the bad code smell can be treated using State Patterns.
+tags: ["Java", "Design Patterns", "Refactoring", "State Pattern"]
+keywords: ["State Pattern", "Refactoring", "Design Patterns", "Java", "Code Smell", "Finite State Machine"]
 draft: false
 ShowShareButtons: true
 ShowToc: true
@@ -14,7 +16,7 @@ comments: true
 ---
 Refactoring is a process of changing software in a way that doesn't alter the external behavior of code and yet improves its internal structure. Refactoring is just like performance optimization as both involve carrying out code manipulations that don’t change the overall functionality of the program. The difference is the purpose: Refactoring is always done to make the code _easier to understand and cheaper to modify_.
 
-![Refactoring Process](../../../images/post/refactoring/refactoring_process.png)
+![Refactoring process diagram showing the cycle of code improvement](../../../images/post/refactoring/refactoring_process.png)
 
 
 Refactoring is generally done when there is a tangible and observable indication that there is a deeper problem in the system, these are called code smells. There is a lot of code smell which includes *Long Method*, *Large Class*, which generally indicates a method or class is doing more than a single thing.
@@ -24,7 +26,7 @@ In this post, I am going to talk about one of the code smell **Repeated Switches
 ## State Pattern 
 State pattern allows an object to alter its behavior when its internal state changes. The object will appear to change its class. The state pattern is closely related to _Finite state machines_.
 
-![Finite State Machine](../../../images/post/refactoring/state_machine.png)
+![Finite state machine diagram showing Open, Close, and Processing states for a metro gate](../../../images/post/refactoring/state_machine.png)
 
 The main idea is that, at any given moment, there’s a finite number of states in which a program can be. Within any unique state, the program behaves differently, and the program can be switched from one state to another instantaneously. However, depending on the current state, the program may or may not switch to certain other states. These switching rules, called transitions, are also finite and predetermined.
 

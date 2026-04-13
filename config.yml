@@ -4,11 +4,29 @@ title: Siddhant Shaw
 theme: "PaperMod-mianto"
 copyright: "Siddhant Shaw | "
 
+enableRobotsTXT: true
+
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
+
 build:
   writeStats: true
 
 params:
   env: production
+  description: "Siddhant Shaw - Software Engineer at Salesforce. IIT Kharagpur alumnus. Personal website featuring blog posts on software design patterns, Java, Spring, and project portfolio."
+  author: "Siddhant Shaw"
+  keywords:
+    - "Siddhant Shaw"
+    - "Software Engineer"
+    - "Salesforce"
+    - "IIT Kharagpur"
+    - "Java Developer"
+    - "Spring Framework"
+  images:
+    - "images/me.jpg"
   ShowToc: true
   TocOpen: false
   disableThemeToggle: true
@@ -16,6 +34,13 @@ params:
   ShowBreadCrumbs: true
   ShowShareButtons: false
   ShowPostNavLinks: true
+
+  schema:
+    publisherType: "Person"
+
+  social:
+    twitter: "mianto7313"
+
   profileMode:
     enabled: true
     title: Siddhant Shaw # optional default will be site title
@@ -28,7 +53,7 @@ params:
       - name: About
         url: /about
       - name: CV
-        url: https://drive.google.com/file/d/1N7VRvb9dzQcDZCrx2kf8wy6zxW7qoH_W/view?usp=sharing
+        url: https://drive.google.com/file/d/1yDAyLSAShdwjsNigR1ncFgXiMEYgBMMh/view?usp=sharing
       - name: Posts
         url: /posts
       - name: Projects

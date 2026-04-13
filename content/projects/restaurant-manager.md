@@ -1,5 +1,6 @@
 ---
 title: "Restaurant Manager"
+summary: "Full-stack restaurant management application built with Spring Boot, React, Spring Security 5, MySQL, and Hibernate."
 date: 2023-03-17T13:04:27+05:30
 draft: false
 ShowReadingTime: false

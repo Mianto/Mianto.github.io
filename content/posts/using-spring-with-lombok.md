@@ -3,6 +3,8 @@ title: "Using Spring With Lombok"
 date: 2023-02-16T11:06:59+05:30
 author: ["Siddhant Shaw"]
 summary: Lombok can be easily integrated with Spring Framework to make your code more concise and readable. By using Lombok with Spring, developers can reduce the amount of code they need to write and focus on the core functionality of their application.
+tags: ["Java", "Spring", "Lombok", "Dependency Injection"]
+keywords: ["Spring Framework", "Lombok", "Java", "Dependency Injection", "Inversion of Control"]
 ShowShareButtons: true
 ShowToc: true
 editPost:

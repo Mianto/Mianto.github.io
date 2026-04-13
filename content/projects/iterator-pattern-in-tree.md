@@ -1,6 +1,6 @@
 ---
 title: Iterator Pattern in trees
-summary: Implementing the iterator pattern in Java
+summary: "Java implementation of the iterator design pattern for tree traversal including preorder, inorder, postorder, and BFS."
 date: 2022-08-01
 draft: false
 ShowPostNavLinks: false
